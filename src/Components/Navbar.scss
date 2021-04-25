@@ -1,0 +1,269 @@
+.navbar {
+	background-color: #ffffff;
+	display: flex;
+	flex: 1;
+	justify-content: space-between;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+	padding: 0 20px;
+}
+
+.nav-menu {
+	display: flex;
+	list-style: none;
+	text-align: center;
+	justify-content: center;
+	margin-right: 2rem;
+}
+
+.nav-item {
+	height: 70px;
+	font-weight: 600;
+	font-size: 1.2rem;
+	text-transform: capitalize;
+	flex-wrap: nowrap;
+	text-decoration: none;
+	list-style: none;
+}
+
+.nav-links {
+	color: #00b7ff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.6rem 0.8rem;
+	height: auto;
+	margin: 5px auto;
+	&:hover {
+		text-decoration: none;
+		list-style: none;
+	}
+}
+
+.nav-links:hover {
+	border-bottom: 4px solid #00b7ff;
+	transition: all 0.3s ease-out;
+	text-decoration: none;
+	list-style: none;
+}
+
+.fa-bars {
+	color: #33c4ff;
+}
+
+.nav-links-mobile {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	border-radius: 4px;
+	font-size: 1.2rem;
+	color: #ffffff;
+	padding: 10px 20px;
+	background-color: #33c5ff;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	&:hover {
+		background-color: #fff;
+		border: 1px solid #33c5ff;
+		color: #33c5ff;
+		text-decoration: none;
+		list-style: none;
+	}
+}
+.butlog {
+	display: none;
+}
+.loginButton {
+	.nav-item {
+		height: auto;
+	}
+	// margin-top: 20px;
+	&:hover {
+		text-decoration: none;
+		list-style: none;
+		.loginMenu {
+			display: block;
+			opacity: 1;
+			.loginList:hover {
+				background-color: #000000;
+			}
+		}
+	}
+}
+.loginbuttoninside {
+	display: none;
+}
+
+.menu-icon {
+	display: none;
+}
+.loginMenu {
+	display: none;
+	position: absolute;
+	opacity: 0;
+	background-color: #00000086;
+	height: 140px;
+	width: 170px;
+	top: 70px;
+	right: 40px;
+	padding-top: 10px;
+	border-radius: 5px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	.loginList {
+		cursor: pointer;
+		display: flex;
+		height: 40px;
+		width: 170px;
+		align-items: center;
+		justify-content: center;
+		.loginButtons {
+			font-size: larger;
+			font-weight: 600;
+			color: #fff;
+			text-decoration: none;
+			list-style: none;
+		}
+	}
+}
+
+@media screen and (max-width: 960px) {
+	.Nav-List {
+		background-color: #000000;
+	}
+
+	.logoImage {
+		margin-top: 20px;
+	}
+	.navbar {
+		/* position: relative; */
+		align-items: center;
+		justify-content: center;
+	}
+
+	.nav-menu {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: 100vh;
+		position: absolute;
+		top: 70px;
+		left: -100%;
+		opacity: 1;
+		transition: all 0.5s ease;
+	}
+
+	.nav-menu.active {
+		background: #ffffff;
+		left: 0;
+		opacity: 1;
+		transition: all 0.5s ease;
+		z-index: 1;
+	}
+
+	.Nav-List {
+		// margin-top: -200px;
+		background-color: #000000;
+	}
+	.nav-links {
+		display: flex;
+		text-align: center;
+		justify-content: flex-start;
+		padding: 2rem;
+		width: 100%;
+		display: table;
+	}
+
+	.nav-links:hover {
+		transition: all 0.5s ease;
+		background-color: #2e2e2e;
+		color: #ffffff;
+		border-radius: 0;
+	}
+
+	.menu-icon {
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		transform: translate(-100%, 60%);
+		font-size: 1.8rem;
+		cursor: pointer;
+	}
+
+	.fa-times {
+		color: #33c5ff;
+		font-size: 2rem;
+	}
+	.butlog {
+		display: block;
+	}
+	.loginButton {
+		display: none;
+	}
+	// .butlog {
+	// 	margin-bottom: 18rem;
+	// }
+	.nav-links-mobile {
+		position: sticky;
+		display: flex;
+		text-align: center;
+		margin: 2rem auto;
+		border-radius: 4px;
+		width: 90vw;
+		text-decoration: none;
+		font-size: 1.5rem;
+		background-color: transparent;
+		color: #33c5ff;
+		padding: 14px 20px;
+		border: 1px solid #33c5ff;
+		transition: all 0.3s ease-out;
+	}
+
+	.nav-links-mobile:hover {
+		background: #33c5ff;
+		color: #ffffff;
+		transition: 250ms;
+	}
+	.loginbuttoninside {
+		display: block;
+		&:hover {
+			.loginMenu1 {
+				display: block;
+				transition: all 0.5s ease-out;
+			}
+		}
+		.loginMenu1 {
+			display: none;
+			background-color: #00000086;
+			padding: 5px 0;
+			border-radius: 5px;
+			flex-direction: column;
+			height: auto;
+			width: 80%;
+			margin: 5px auto;
+			.loginList {
+				cursor: pointer;
+				display: flex;
+				height: 45px;
+				align-items: center;
+				justify-content: center;
+				&:hover {
+					background-color: #000000;
+				}
+				.loginButtons {
+					font-size: larger;
+					font-weight: 600;
+					color: #fff;
+					text-decoration: none;
+					list-style: none;
+				}
+			}
+		}
+	}
+}

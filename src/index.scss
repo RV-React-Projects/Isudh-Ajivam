@@ -1,0 +1,122 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+		'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+ul,
+li,
+Link,
+a {
+	text-decoration: none;
+	list-style: none;
+	color: black;
+}
+
+.Common {
+	display: flex;
+	flex-direction: column;
+	width: 90vw;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	a {
+		margin: 8rem;
+		background-color: black;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: aliceblue;
+		font-size: x-large;
+		font-weight: 600;
+		width: 100%;
+		padding: 10px;
+		&:hover {
+			text-decoration: none;
+			list-style: none;
+			background-color: #0e833f;
+		}
+	}
+}
+
+.login_page {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	form {
+		.login-form {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			i {
+				color: #40d4ee;
+				margin: 4rem;
+				span {
+					margin-left: 10px;
+					color: #fff;
+				}
+			}
+		}
+		.inputitems {
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			justify-content: center;
+			margin: 10px;
+			label {
+				color: #fff;
+				font-size: x-large;
+				font-weight: 600;
+				float: left;
+				left: 0;
+			}
+			input {
+				padding: 10px;
+				font-size: x-large;
+				min-width: 400px;
+				max-width: 80vw;
+				border-radius: 5px;
+				overflow: hidden;
+				outline: none;
+				border: none;
+			}
+			button {
+				outline: none;
+				border: none;
+				padding: 0.9rem 2.5rem;
+				font-size: x-large;
+				font-weight: 600;
+				margin: 1rem;
+				border-radius: 7px;
+				background-color: #55f15c;
+				&:hover {
+					background-color: deepskyblue;
+					color: #fff;
+				}
+			}
+			a {
+				color: #fff;
+				font-size: large;
+				font-weight: 600;
+				margin: 10px;
+			}
+		}
+	}
+}
+
+.signup-Page {
+	margin: auto;
+}
