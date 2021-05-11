@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/RV-React-Projects/Isudh-Ajivam/static/css/main.2205ba34.chunk.css",
-    "main.js": "/RV-React-Projects/Isudh-Ajivam/static/js/main.037f9581.chunk.js",
-    "main.js.map": "/RV-React-Projects/Isudh-Ajivam/static/js/main.037f9581.chunk.js.map",
-    "runtime-main.js": "/RV-React-Projects/Isudh-Ajivam/static/js/runtime-main.f01abaa6.js",
-    "runtime-main.js.map": "/RV-React-Projects/Isudh-Ajivam/static/js/runtime-main.f01abaa6.js.map",
-    "static/css/2.4c97ca4f.chunk.css": "/RV-React-Projects/Isudh-Ajivam/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.7019d9af.chunk.js": "/RV-React-Projects/Isudh-Ajivam/static/js/2.7019d9af.chunk.js",
-    "static/js/2.7019d9af.chunk.js.map": "/RV-React-Projects/Isudh-Ajivam/static/js/2.7019d9af.chunk.js.map",
-    "index.html": "/RV-React-Projects/Isudh-Ajivam/index.html",
-    "static/css/2.4c97ca4f.chunk.css.map": "/RV-React-Projects/Isudh-Ajivam/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.2205ba34.chunk.css.map": "/RV-React-Projects/Isudh-Ajivam/static/css/main.2205ba34.chunk.css.map",
-    "static/js/2.7019d9af.chunk.js.LICENSE.txt": "/RV-React-Projects/Isudh-Ajivam/static/js/2.7019d9af.chunk.js.LICENSE.txt"
+    "main.css": "/Isudh-Ajivam/static/css/main.2205ba34.chunk.css",
+    "main.js": "/Isudh-Ajivam/static/js/main.037f9581.chunk.js",
+    "main.js.map": "/Isudh-Ajivam/static/js/main.037f9581.chunk.js.map",
+    "runtime-main.js": "/Isudh-Ajivam/static/js/runtime-main.ecff1326.js",
+    "runtime-main.js.map": "/Isudh-Ajivam/static/js/runtime-main.ecff1326.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/Isudh-Ajivam/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.7019d9af.chunk.js": "/Isudh-Ajivam/static/js/2.7019d9af.chunk.js",
+    "static/js/2.7019d9af.chunk.js.map": "/Isudh-Ajivam/static/js/2.7019d9af.chunk.js.map",
+    "index.html": "/Isudh-Ajivam/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/Isudh-Ajivam/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.2205ba34.chunk.css.map": "/Isudh-Ajivam/static/css/main.2205ba34.chunk.css.map",
+    "static/js/2.7019d9af.chunk.js.LICENSE.txt": "/Isudh-Ajivam/static/js/2.7019d9af.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f01abaa6.js",
+    "static/js/runtime-main.ecff1326.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.7019d9af.chunk.js",
     "static/css/main.2205ba34.chunk.css",
